@@ -46,3 +46,55 @@
 
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <title>Sökruta</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      background-color: #f9f9f9;
+      color: #111;
+    }
+
+    form {
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+
+    input[type="text"] {
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      width: 200px;
+    }
+
+    button {
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      background-color: #000;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <form action="#" method="get">
+    <input type="text" placeholder="Sök här..." name="sok" />
+    <button type="submit">Sök</button>
+  </form>
+
+</body>
+</html>
