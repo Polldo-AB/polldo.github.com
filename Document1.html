@@ -2,178 +2,46 @@
 <html lang="sv">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>5S Företag</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-50 text-gray-800 font-sans">
-  <header class="bg-white shadow">
-    <div class="max-w-7xl mx-auto py-4 px-6 flex justify-between items-center">
-      <h1 class="text-2xl font-bold text-blue-700">5S Företag</h1>
-      <nav>
-        <a href="#metod" class="ml-4 text-gray-700 hover:text-blue-600">Metod</a>
-        <a href="#kontakt" class="ml-4 text-gray-700 hover:text-blue-600">Kontakt</a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="max-w-5xl mx-auto py-10 px-6">
-    <section id="intro" class="text-center mb-12">
-      <h2 class="text-3xl font-semibold mb-4">Effektivisering med 5S</h2>
-      <p class="text-gray-600">Vi hjälper industriföretag att skapa ordning, minska slöseri och höja säkerheten.</p>
-    </section>
-
-    <section id="metod" class="grid grid-cols-1 md:grid-cols-5 gap-6 text-center">
-      <div class="p-4 bg-white rounded shadow">
-        <h3 class="font-bold text-blue-700 text-xl">1. Sortera</h3>
-        <p>Identifiera och ta bort det onödiga.</p>
-      </div>
-      <div class="p-4 bg-white rounded shadow">
-        <h3 class="font-bold text-blue-700 text-xl">2. Systematisera</h3>
-        <p>Organisera det som behövs på rätt plats.</p>
-      </div>
-      <div class="p-4 bg-white rounded shadow">
-        <h3 class="font-bold text-blue-700 text-xl">3. Städa</h3>
-        <p>Rengör regelbundet för att hitta avvikelser.</p>
-      </div>
-      <div class="p-4 bg-white rounded shadow">
-        <h3 class="font-bold text-blue-700 text-xl">4. Standardisera</h3>
-        <p>Skapa rutiner och visuella standarder.</p>
-      </div>
-      <div class="p-4 bg-white rounded shadow">
-        <h3 class="font-bold text-blue-700 text-xl">5. Skapa vana</h3>
-        <p>Följ upp och förbättra kontinuerligt.</p>
-      </div>
-    </section>
-
-    <section id="kontakt" class="mt-16 text-center">
-      <h2 class="text-2xl font-semibold mb-4">Kontakta oss</h2>
-      <p class="mb-2">info@5sforetag.se</p>
-      <p>+46 70 123 45 67</p>
-    </section>
-  </main>
-
-  <footer class="bg-white mt-16 py-4 text-center text-gray-500 text-sm">
-    © 2025 5S Företag. Alla rättigheter förbehållna.
-  </footer>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="sv">
-<head>
-  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>5S Företag</title>
+  <title>Polldo Förbättrar</title>
   <style>
-    /* Grundläggande stil */
-    body {
-      background-color: #f9f9f9; /* Ljus bakgrund */
-      color: #111;               /* Nästan svart text */
-      font-family: 'Helvetica Neue', Arial, sans-serif;
+    * {
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
     }
 
-    header {
-      padding: 2rem;
-      text-align: center;
-      background-color: #fff;
-      border-bottom: 1px solid #ccc;
-    }
-
-    h1 {
-      margin: 0;
-      font-size: 2.5rem;
-      color: #000;
-    }
-
-    main {
-      padding: 2rem;
-      max-width: 800px;
-      margin: auto;
-    }
-
-    p {
-      font-size: 1.2rem;
-      line-height: 1.6;
-      color: #333;
-    }
-
-    footer {
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
-      color: #666;
-      border-top: 1px solid #ccc;
-      background-color: #fff;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Vi hjälper dig strukturera dina avdelningar</h1>
-  </header>
-
-  <main>
-    <p>
-      Vi använder 5S-metoden för att skapa ordning, tydligh
-
-      <!DOCTYPE html>
-<html lang="sv">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Meny med Karlsson-länkar</title>
-  <style>
-    body {
-      margin: 0;
+    body, html {
+      height: 100%;
       font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
-      color: #111;
     }
 
-    nav {
-      background-color: #000;
-      padding: 1rem;
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1506765515384-028b60a970df?auto=format&fit=crop&w=1600&q=80');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
       text-align: center;
     }
 
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      margin: 0 1rem;
-      font-weight: bold;
-      font-size: 1.1rem;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    main {
-      padding: 2rem;
-      text-align: center;
+    .hero h1 {
+      font-size: 3rem;
+      padding: 1rem 2rem;
+      background-color: rgba(0, 0, 0, 0.4);
+      border-radius: 8px;
     }
   </style>
 </head>
 <body>
 
-  <nav>
-    <a href="#karlsson1">Karlsson 1</a>
-    <a href="#karlsson2">Karlsson 2</a>
-    <a href="#karlsson3">Karlsson 3</a>
-    <a href="#karlsson4">Karlsson 4</a>
-    <a href="#karlsson5">Karlsson 5</a>
-    <a href="#karlsson6">Karlsson 6</a>
-    <a href="#karlsson7">Karlsson 7</a>
-    <a href="#karlsson8">Karlsson 8</a>
-  </nav>
-
-  <main>
-    <h1>Välkommen till Karlsson-menyn</h1>
-    <p>Klicka på ett av alternativen i menyn för att gå vidare.</p>
-  </main>
+  <section class="hero">
+    <h1>Polldo Förbättrar</h1>
+  </section>
 
 </body>
 </html>
-
